@@ -10,6 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        apk_version_name.text = BuildConfig.VERSION_NAME + " - " + BuildConfig.VERSION_CODE
+        apk_version_name.text = BuildConfig.VERSION_NAME + " " + BuildConfig.VERSION_CODE
     }
 }
