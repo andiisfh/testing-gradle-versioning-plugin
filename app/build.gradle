@@ -8,7 +8,7 @@ apply plugin: 'kotlin-android-extensions'
 
 versioning {
     keywords {
-        major "[incompatible]"
+        major "[major]"
         minor "[minor]"
         patch "[bug]", "[patch]"
     }
